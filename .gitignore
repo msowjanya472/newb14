@@ -1,0 +1,18 @@
+# Never push system/home directories
+.ssh/
+.aws/
+.azure/
+.docker/
+.cache/
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.motd_shown
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
